@@ -1,31 +1,34 @@
 import React from 'react';
 import axios from 'axios';
 class Product extends React.Component {
-    constructor(){
-      super();
-      this.state={
-        productDate:[]
-      }
+    constructor() {
+        super();
+        this.state = {
+            productDate: []
+        }
     }
-    componentDidMount(){
-      axios.get("")
+    componentDidMount() {
+        axios.get("https://raw.githubusercontent.com/yewenxiang23/my-resume/master/src/blogData/product.json").then(res => this.setState({productDate: res.data}));
     }
     render() {
+        console.log(this.state.productDate)
         return (
             <div className="production">
                 <section className="work">
-                  {
-                    this.state.productDate.map()
-                  }
-                    <figure className="product">
-                        <h4>云美丽首页</h4>
-                        <img src="http://omfmbv825.bkt.clouddn.com/yunmeili.png" alt="yunmeili-demo"/>
-                        <div className="product-title">
-                            <a href="https://yewenxiang23.github.io/yunmeili/">演示demo</a>
-                            <a href="https://github.com/yewenxiang23/yunmeili">源码地址</a>
-                        </div>
-                        <figcaption>一个电商网站项目，总共包含六个子页面，含首页、列表页、详情页、支付页、注册页、登录页。并且包含基本的逻辑功能，购物车、轮播、标签页等等都是使用原生JS来开发的。</figcaption>
-                    </figure>
+                    {this.state.productDate.length == 0
+                        ? "正在加载中"
+                        : this.state.productDate.map((item) => (
+                            <figure className="product">
+                                <h4>{item.title}</h4>
+                                <img src={`http://omfmbv825.bkt.clouddn.com/${item.imgName}.png`} alt={item.imgName}/>
+                                <div className="product-title">
+                                    <a href={`https://yewenxiang23.github.io/${item.imgName}/`}>演示demo</a>
+                                    <a href={`https://github.com/yewenxiang23/${item.imgName}`}>源码地址</a>
+                                </div>
+                                <figcaption>{item.desc}</figcaption>
+                            </figure>
+                        ))
+}
                     {/* <figure className="product">
                         <h4>云美丽列表页</h4>
                         <img src="http://omfmbv825.bkt.clouddn.com/liebiao.png" alt="yunmeili-demo"/>
