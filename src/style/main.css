@@ -1,0 +1,292 @@
+
+body {
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    color: #757575;
+}
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+h4, figure, figcaption, dl, p {
+    margin: 0;
+}
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+/*头部样式*/
+header {
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #00796B;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1 {
+    font-size: 20px;
+}
+
+header .person {
+    width: 70px;
+    margin-right: 20px;
+}
+.person {
+    display: block;
+    border-radius: 50%;
+    border: 5px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+/*页脚样式*/
+footer {
+    height: 50px;
+    display: flex;
+    background-color: #009688;
+    flex-shrink: 0;
+    font-size: 18px;
+    border-top: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+footer a {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    border-left: 2px solid rgba(0, 0, 0, 0.1);
+    flex-grow: 1;
+    line-height: 50px;
+}
+
+footer a:first-child {
+    border-left: 0;
+}
+
+footer a i {
+    font-size: 18px;
+    color: white;
+    margin-right: 8px;
+}
+footer .active {
+    border-bottom: 4px solid #4CAF50;
+}
+/*Home样式*/
+.home,.production {
+    background-color: #fafafa;
+    line-height: 1.8;
+    padding: 16px;
+    overflow-y: scroll;
+    flex-grow: 1;
+    height: 100%;
+}
+.index ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.index dt {
+    font-size: 18px;
+    color: #00796B;
+    line-height: 30px;
+    border-bottom: 1px solid #00796B;
+}
+
+.index dt i {
+    margin-right: 5px;
+}
+
+.index dd {
+    font-size: 14px;
+    margin-left: 0;
+}
+
+.index dd span {
+    font-weight: bolder;
+    margin-right: 5px;
+}
+
+.index dd:nth-child(2) {
+    margin-top: 10px;
+}
+
+.index dd:last-child {
+    margin-bottom: 10px;
+}
+
+.index dd a {
+    color: #009688;
+}
+
+.skill ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill ul li {
+    padding: 1px 6px;
+    background-color: #00796B;
+    margin: 5px;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.skill ul .primary {
+    background-color: #00796B;
+}
+
+.skill ul .secondary {
+    background-color: #009688;
+}
+
+.skill ul .know {
+    background-color: #B2DFDB;
+}
+
+.detail-skill {
+    padding-left: 5px;
+}
+
+.detail-skill ul {
+    padding-left: 15px;
+    border-left: 1px solid #00796B;
+    position: relative;
+}
+
+.detail-skill ul li {
+    margin-bottom: 5px;
+}
+
+.detail-skill .round {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #00796B;
+    position: absolute;
+    left: -8px;
+}
+
+.detail-skill p {
+    font-size: 12px;
+}
+
+.detail-skill h4 {
+    color: #00796B;
+    position: relative;
+    top: -5px;
+}
+/*product样式*/
+.work {
+    margin: 10px;
+}
+
+.work figure {
+    margin-top: 20px;
+    transition: all 500ms ease;
+}
+
+.work figure:hover {
+    cursor: pointer;
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.12), 0 1px 8px rgba(0, 0, 0, 0.24);
+}
+
+.work .product {
+    text-align: center;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
+    padding: 20px 10px;
+}
+
+.work .product img {
+    width: 80%;
+    margin: 10px 0;
+    border: 1px solid #BDBDBD;
+}
+
+.work .product figcaption {
+    font-size: 14px;
+    margin-top: 10px;
+    height: 100px;
+}
+
+.work .product h4 {
+    color: #212121;
+}
+
+.work .product .product-title {
+    display: flex;
+    justify-content: space-around;
+}
+
+.work .product .product-title a {
+    font-size: 12px;
+    background-color: #00796B;
+    border-radius: 4px;
+    padding: 0px 6px;
+    color: white;
+    line-height: 28px;
+}
+/*字体样式*/
+@font-face {
+    font-family: "iconfont";
+    src: url("../font/iconfont.eot?t=1487249839922");
+    /* IE9*/
+    src: url("../font/iconfont.eot?t=1487249839922#iefix") format("embedded-opentype"), url("../font/iconfont.woff?t=1487249839922") format("woff"), url("../font/iconfont.ttf?t=1487249839922") format("truetype"), url("../font/iconfont.svg?t=1487249839922#iconfont") format("svg");
+    /* iOS 4.1- */
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-phone:before {
+    content: "\e640";
+}
+
+.icon-QQ:before {
+    content: "\e607";
+}
+
+.icon-weixin:before {
+    content: "\e66f";
+}
+
+.icon-zhuye:before {
+    content: "\e8bd";
+}
+
+.icon-gmail:before {
+    content: "\e632";
+}
+
+.icon-github:before {
+    content: "\e69f";
+}
+
+.icon-wodeboke:before {
+    content: "\e63d";
+}
+
+.icon-zuopinanli:before {
+    content: "\e619";
+}
+
+.icon-markdown:before {
+    content: "\e604";
+}
+
+.icon-icon:before {
+    content: "\e605";
+}
+
+.icon-biaoti:before {
+    content: "\e63a";
+}
