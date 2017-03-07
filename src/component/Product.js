@@ -18,7 +18,7 @@ class Product extends React.Component {
                     {this.state.productDate.length == 0
                         ? "正在加载中"
                         : this.state.productDate.map((item) => (
-                            <figure className="product">
+                            <figure className="product" key={Math.random()}>
                                 <h4>{item.title}</h4>
                                 <img src={`http://omfmbv825.bkt.clouddn.com/${item.imgName}.png`} alt={item.imgName}/>
                                 <div className="product-title">
