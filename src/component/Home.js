@@ -106,16 +106,16 @@ class Home extends React.Component {
                                         <li className="primary">HTML</li>
                                         <li className="primary">CSS</li>
                                         <li className="primary">Javascript</li>
-                                        <li className="primary">sass</li>
                                         <li className="primary">jQuery</li>
                                         <li className="secondary">Bootstrap</li>
                                         <li className="secondary">git</li>
-                                        <li className="know">React</li>
-                                        <li className="know">Node.js</li>
-                                        <li className="know">Ajax</li>
-                                        <li className="know">JSON</li>
+                                        <li className="secondary">sass</li>
+                                        <li className="secondary">React</li>
+                                        <li className="secondary">Ajax</li>
+                                        <li className="secondary">JSON</li>
+                                        <li className="secondary">ES6</li>
                                         <li className="know">HTTP</li>
-                                        <li className="know">ES6</li>
+                                        <li className="know">Node.js</li>
                                     </ul>
                                 </dd>
                             </dl>

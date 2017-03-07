@@ -39,8 +39,8 @@ module.exports = {
       loader: 'file-loader'
     },
     {
-      test: /\.(woff|woff2|ttf|svg|eot)(\?v=\d+\.\d+\.\d+)?$/,
-      loader: "url?limit=10000"
+      test: /\.(woff|woff2|ttf|svg|eot)\??.*$/,
+      loader: "url-loader?name=fonts/[name].[md5:hash:hex:7].[ext]"
     }]
   }
 };
