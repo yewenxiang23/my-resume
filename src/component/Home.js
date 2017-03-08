@@ -26,10 +26,10 @@ class Home extends React.Component {
                                     <span>应聘岗位:</span>前端工程师
                                 </dd>
                                 <dd>
-                                    <span>现居住地:</span>湖北仙桃
+                                    <span>现居住地:</span>河北秦皇岛
                                 </dd>
                                 <dd>
-                                    <span>目前情况:</span>秦皇岛学习中
+                                    <span>目前情况:</span>可随时到岗
                                 </dd>
                             </dl>
                         </li>
@@ -92,7 +92,7 @@ class Home extends React.Component {
                                         <i className="iconfont icon-icon"></i>
                                         简历源码:
                                     </span>
-                                    <a href="https://github.com/yewenxiang23/resume">https://github.com/yewenxiang23/resume</a>
+                                    <a href="https://github.com/yewenxiang23/my-resume">https://github.com/yewenxiang23/my-resume</a>
                                 </dd>
                             </dl>
                         </li>
@@ -115,7 +115,6 @@ class Home extends React.Component {
                                         <li className="secondary">JSON</li>
                                         <li className="secondary">ES6</li>
                                         <li className="know">HTTP</li>
-                                        <li className="know">Node.js</li>
                                     </ul>
                                 </dd>
                             </dl>
@@ -131,7 +130,7 @@ class Home extends React.Component {
                                             <div className="round"></div>
                                             <h4>HTML / CSS</h4>
                                             <p>能够编写语义化的HTML，熟练运用div+css 浮动布局，flexbox 弹性布局。</p>
-                                            <p>熟悉SASS书写，gulp，webpack自动化工具的运用，进行模块化开发，autoprefixer、imagemin等后处理工具的使用。</p>
+                                            <p>熟悉SASS书写，gulp，webpack自动化工具的运用， 进行模块化开发。</p>
                                         </li>
                                         <li>
                                             <div className="round"></div>
@@ -155,8 +154,8 @@ class Home extends React.Component {
                                         </li>
                                         <li>
                                             <div className="round"></div>
-                                            <h4>React / Node.js / Ajax / JSON / HTTP / ES6</h4>
-                                            <p>正在学习中哈哈。</p>
+                                            <h4>React /  Ajax / JSON  / ES6</h4>
+                                            <p>能使用ES6语法和React库进行模块化的开发，能实现基本的页面布局和常见的功能，轮播，TODOMVC等。掌握了 React-router实现页面的无刷新体验 、axios或者JQ 来实现Ajax请求数据实现页面的局部刷新，Ant-design 组件库的运用等等。 </p>
                                         </li>
                                     </ul>
                                 </dd>
