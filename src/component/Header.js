@@ -17,7 +17,7 @@ class Header extends React.Component {
         return (
             <div>
                 <header>
-                    <img src="http://omfmbv825.bkt.clouddn.com/person.jpeg" alt="person img" className="person"/>
+                    <img src="http://omfmbv825.bkt.clouddn.com/2_02.png" alt="person img" className="person"/>
                     <h1>叶文翔的个人{this.props.title}</h1>
                     <label className="responsive-nav" onClick={this.setResponsiveNav.bind(this)}>
                         <span style={{
