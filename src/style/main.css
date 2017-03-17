@@ -56,6 +56,9 @@ h4, figure, figcaption, dl, p {
   .container{
     flex-direction: row;
   }
+  .work{
+    position: static;
+  }
 }
 /*头部样式*/
 header {

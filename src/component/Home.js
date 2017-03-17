@@ -14,7 +14,7 @@ class Home extends React.Component {
                                     <span>个人信息:</span>叶文翔 / 男 / 24岁
                                 </dd>
                                 <dd>
-                                    <span>毕业院校:</span>湖北工业大学
+                                    <span>毕业院校:</span>湖北工业大学工程技术学院
                                 </dd>
                                 <dd>
                                     <span>个人专业:</span>数控技术
