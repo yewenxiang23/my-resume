@@ -52,14 +52,7 @@ h4, figure, figcaption, dl, p {
     flex-direction: column;
     justify-content: space-between;
 }
-@media (min-width:750px) {
-  .container{
-    flex-direction: row;
-  }
-  .work{
-    position: static;
-  }
-}
+
 /*头部样式*/
 header {
     padding: 10px;
@@ -224,7 +217,7 @@ footer a.active {
 /*product样式*/
 .work {
     height: 100%;
-    position: relative;
+    position: static;
 }
 
 .work figure {
@@ -394,4 +387,12 @@ footer a.active {
     .work figure {
         width: calc(25% - 40px);
     }
+}
+@media (min-width:750px) {
+  .container{
+    flex-direction: row;
+  }
+.production .work{
+    position: relative;
+  }
 }
