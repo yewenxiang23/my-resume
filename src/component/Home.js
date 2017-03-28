@@ -114,7 +114,7 @@ class Home extends React.Component {
                                         </li>
                                         <li>
                                             <div className="round"></div>
-                                            <h4>xxxx有限公司 2016.6-至今</h4>
+                                            <h4>北京聚合互联 2016.6-至今</h4>
                                               <span>工作岗位:web前端</span>
                                             <p>1. 切图、布局、将psd设计稿制成静态页面</p>
                                             <p>2. 使用js、jQuery实现页面的交互效果</p>
