@@ -23,9 +23,6 @@ class Home extends React.Component {
                                     <span>应聘岗位:</span>前端工程师
                                 </dd>
                                 <dd>
-                                    <span>工作经验:</span>两年工作经验
-                                </dd>
-                                <dd>
                                     <span>现居住地:</span>河北秦皇岛
                                 </dd>
                                 <dd>
@@ -96,35 +93,7 @@ class Home extends React.Component {
                                 </dd>
                             </dl>
                         </li>
-                        <li>
-                            <dl>
-                                <dt>
-                                    <i className="iconfont icon-biaoti"></i>工作经历
-                                </dt>
-                                <dd className="detail-skill">
-                                    <ul>
-                                        <li>
-                                            <div className="round"></div>
-                                            <h4>广州美的商务暖通有限公司 2015.3-2016.6</h4>
-                                              <span>工作岗位:网站编辑</span>
-                                            <p>1. 负责局域网安全运行及维护工作，定期检查网络设备，对计算机硬件系统进行日常维护。</p>
-                                            <p>2. 编写网站宣传资料及相关产品资料</p>
-                                            <p>3. 负责网站相关栏目/频道的信息搜集、编辑、审校等工作</p>
-                                            <p>4. 完成栏目的每日内容更新工作</p>
-                                        </li>
-                                        <li>
-                                            <div className="round"></div>
-                                            <h4>北京聚合互联 2016.6-至今</h4>
-                                              <span>工作岗位:web前端</span>
-                                            <p>1. 切图、布局、将psd设计稿制成静态页面</p>
-                                            <p>2. 使用js、jQuery实现页面的交互效果</p>
-                                            <p>3. 负责bug的修复和公司网站的日常维护</p>
-                                            <p>4. 配合需求进行网站的改版</p>
-                                        </li>
-                                    </ul>
-                                </dd>
-                            </dl>
-                        </li>
+                        
                         <li>
                             <dl>
                                 <dt>
