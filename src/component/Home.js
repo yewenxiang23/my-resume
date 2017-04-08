@@ -23,7 +23,7 @@ class Home extends React.Component {
                                     <span>应聘岗位:</span>前端工程师
                                 </dd>
                                 <dd>
-                                    <span>现居住地:</span>河北秦皇岛
+                                    <span>现居住地:</span>湖北武汉
                                 </dd>
                                 <dd>
                                     <span>目前情况:</span>可随时到岗
