@@ -1,6 +1,6 @@
 [
   {
-    "title":"个人博客demo","desc":"使用React + React-router + axios 来实现的一个单页面应用。实现了页面切换无刷新，文章数据存储在json文件中，通过axios发送http请求,实现Ajax页面无刷的技术。使用了 marked 包 将makedown 文件转换为 html , highlight.js 包 来实现博客中的代码块高亮,整个页面使用了flex弹性布局","imgName":"myblog","demoAddress":"myblog","codeAddress":"myblog"
+    "title":"个人博客demo","desc":"使用React + React-router + axios 来实现的一个单页面应用。实现了页面切换无刷新，文章数据存储在json文件中，通过axios发送http请求,实现Ajax页面无刷的技术,整个页面使用了flex弹性布局。","imgName":"myblog","demoAddress":"myblog","codeAddress":"myblog"
   },
   {
     "title":"好奇猫首页","desc":"一个模仿 https://haoqicat.com/ 网站的项目，使用的技术栈有:React+React-router+axios+redux+React-redux+Redux-thunk+SCSS 做的一个响应式的网站，与后台交互，包含登录、注册、退出功能","imgName":"haoqicat","demoAddress":"haoqicat","codeAddress":"haoqicat"
