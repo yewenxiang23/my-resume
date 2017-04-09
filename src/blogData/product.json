@@ -1,9 +1,9 @@
 [
   {
-    "title":"个人博客demo","desc":"使用React + React-router + axios 来实现的一个单页面应用。实现了页面切换无刷新，文章数据存储在json文件中，通过axios发送http请求,整个页面使用了flex弹性布局。","imgName":"myblog","demoAddress":"myblog","codeAddress":"myblog"
+    "title":"好奇猫首页","desc":"使用的技术栈有:React+React-router+axios+redux+React-redux+Redux-thunk+SCSS 做的一个响应式的网站，与后台交互，包含登录、注册、退出功能","imgName":"haoqicat","demoAddress":"haoqicat","codeAddress":"haoqicat"
   },
   {
-    "title":"好奇猫首页","desc":"使用的技术栈有:React+React-router+axios+redux+React-redux+Redux-thunk+SCSS 做的一个响应式的网站，与后台交互，包含登录、注册、退出功能","imgName":"haoqicat","demoAddress":"haoqicat","codeAddress":"haoqicat"
+    "title":"个人博客demo","desc":"使用React + React-router + axios 来实现的一个单页面应用。实现了页面切换无刷新，文章数据存储在json文件中，通过axios发送http请求,整个页面使用了flex弹性布局。","imgName":"myblog","demoAddress":"myblog","codeAddress":"myblog"
   },
   {"title":"云美丽首页","desc":"一个电商网站项目，总共包含六个子页面，含首页、列表页、详情页、支付页、注册页、登录页。并且包含基本的逻辑功能，购物车、轮播、标签页等等都是使用原生JS来开发的。","imgName":"yunmeili","demoAddress":"yunmeili","codeAddress":"yunmeili"},
   {"title":"云美丽列表页","desc":"列表页包含商品类别的切换，点击排序、价格、颜色类别时，给点击的按钮添颜色。点击喜欢数量加一的小功能。","imgName":"liebiao","demoAddress":"yunmeili/pages/listPage.html","codeAddress":"yunmeili"},
