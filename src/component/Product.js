@@ -11,7 +11,12 @@ class Product extends React.Component {
         }
     }
     componentDidMount() {
-        axios.get("https://raw.githubusercontent.com/yewenxiang23/my-resume/master/src/blogData/product.json").then(res => this.setState({productDate: res.data}));
+        axios.get("https://raw.githubusercontent.com/yewenxiang23/my-resume/master/src/blogData/product.json")
+        .then(res => this.setState({productDate: res.data}));
+    }
+    isLink(value){
+        return value.indexOf('http') !== -1
+
     }
     render() {
         return (
@@ -26,7 +31,8 @@ class Product extends React.Component {
                                 <h4>{item.title}</h4>
                                 <img src={`http://omfmbv825.bkt.clouddn.com/${item.imgName}.png`} alt={item.imgName}/>
                                 <div className="product-title">
-                                    <a href={`https://yewenxiang23.github.io/${item.demoAddress}`}>演示demo</a>
+                                    <a href={this.isLink(item.demoAddress)
+                                    ?item.demoAddress:`https://yewenxiang23.github.io/${item.demoAddress}`}>演示demo</a>
                                     {
                                         item.codeAddress &&  <a href={`https://github.com/yewenxiang23/${item.codeAddress}`}>源码地址</a>
                                     }
