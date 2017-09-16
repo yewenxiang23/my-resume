@@ -244,7 +244,7 @@ footer a.active {
 .work .product figcaption {
     font-size: 14px;
     margin-top: 10px;
-    height: 200px;
+    /* height: 200px; */
 }
 .work .product h4 {
     color: #212121;
