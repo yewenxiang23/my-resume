@@ -105,19 +105,14 @@ class Home extends React.Component {
                                         <li className="primary">CSS3</li>
                                         <li className="primary">Javascript</li>
                                         <li className="primary">jQuery</li>
-                                        <li className="secondary">Bootstrap</li>
                                         <li className="secondary">git</li>
                                         <li className="secondary">sass</li>
                                         <li className="secondary">React</li>
+                                        <li className="secondary">React-Native</li>
                                         <li className="secondary">Redux</li>
                                         <li className="secondary">Ajax</li>
                                         <li className="secondary">pug</li>
-                                        <li className="secondary">JSON</li>
                                         <li className="secondary">ES6</li>
-                                        <li className="secondary">HTTP</li>
-                                        <li className="know">node.js</li>
-                                        <li className="know">MongoDB</li>
-                                        <li className="know">express</li>
                                     </ul>
                                 </dd>
                             </dl>
@@ -162,6 +157,11 @@ class Home extends React.Component {
                                             <p>
                                               对于比较复杂的单页面应用，使用 Redux 来进行 state数据的统一管理，使用 Redux-thunk 来实现发送 action 的异步操作。
                                             </p>
+                                        </li>
+                                        <li>
+                                            <div className="round"></div>
+                                            <h4>React-Native</h4>
+                                            <p>熟练使用React-Native + flex,来实现页面的各种布局，熟悉React-Native各种原生组件和插件库的使用</p>
                                         </li>
                                         <li>
                                             <div className="round"></div>
