@@ -14,7 +14,7 @@ class Home extends React.Component {
                                     <span>个人信息:</span>叶文翔 / 男 / 24岁
                                 </dd>
                                 <dd>
-                                    <span>毕业院校:</span>湖北工业大学
+                                    <span>毕业院校:</span>湖北工业大学工程技术学院
                                 </dd>
                                 <dd>
                                     <span>个人专业:</span>数控编程
@@ -40,7 +40,7 @@ class Home extends React.Component {
                                         <i className="iconfont icon-phone"></i>
                                         联系电话:
                                     </span>
-                                    17000210556
+                                    15623662979
                                 </dd>
                                 <dd>
                                     <span>
@@ -69,6 +69,7 @@ class Home extends React.Component {
                                         blog:
                                     </span>
                                     <a href="http://www.cnblogs.com/yewenxiang/">http://www.cnblogs.com/yewenxiang/</a>
+                                    <a href="https://blog.csdn.net/yewenxiang?viewmode=contents" style={{marginLeft:'10px'}}>   https://blog.csdn.net/yewenxiang?viewmode=contents</a>
                                 </dd>
                                 <dd>
                                     <span>
@@ -105,12 +106,12 @@ class Home extends React.Component {
                                         <li className="primary">CSS3</li>
                                         <li className="primary">Javascript</li>
                                         <li className="primary">jQuery</li>
+                                        <li className="primary">Bootstrap</li>
                                         <li className="secondary">git</li>
                                         <li className="secondary">sass</li>
                                         <li className="secondary">React</li>
                                         <li className="secondary">React-Native</li>
                                         <li className="secondary">Redux</li>
-                                        <li className="secondary">Ajax</li>
                                         <li className="secondary">pug</li>
                                         <li className="secondary">ES6</li>
                                     </ul>
@@ -163,14 +164,6 @@ class Home extends React.Component {
                                             <h4>React-Native</h4>
                                             <p>熟练使用React-Native + flex,来实现页面的各种布局，熟悉React-Native各种原生组件和插件库的使用</p>
                                         </li>
-                                        <li>
-                                            <div className="round"></div>
-                                            <h4>HTTP / MongoDB / express / pug</h4>
-                                            <p>
-                                              了解前后端分离和前后端不分离的架构，对于前后端不分离的架构，能使用pug模板引擎来进行服务器端页面的渲染。
-                                            </p>
-                                            <p>了解HTTP的基础知识，对请求和响应数据数据的一些基本的操作。对于数据库能使用命令行或者express图形化界面进行数据库的建立，增删改查的操作，使用express来制作后台的一些较简单的API。</p>
-                                        </li>
                                     </ul>
                                 </dd>
                             </dl>
@@ -181,7 +174,7 @@ class Home extends React.Component {
                                     <i className="iconfont icon-biaoti"></i>自我评价
                                 </dt>
                                 <dd>
-                                    <p>个人对于计算机方面是非常有兴趣的，特别享受一边敲代码一边听音乐的乐趣，有自己的个人博客，其中一篇博客目前为止超过 2000 的阅读量。精通于MAC上进行开发。</p>
+                                    <p>个人对于计算机方面是非常有兴趣的，特别享受一边敲代码一边听音乐的乐趣，有自己的个人博客，其中一篇博客目前为止超过 40000 的阅读量。精通于MAC上进行开发。</p>
                                     <p>平时我就是一个很细心的人，对于代码方面更是如此，尽最大的努力精确到1px，不能接受标签胡乱嵌套，命名不规范，无用或重复的代码，等等问题，追求完美。</p>
                                     <p>对待问题首先自己折腾解决，享受解决问题之后的快感，有种肾上腺素飙升的感觉。</p>
                                 </dd>
