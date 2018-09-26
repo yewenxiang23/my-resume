@@ -11,7 +11,7 @@ class Home extends React.Component {
                                     <i className="iconfont icon-biaoti"></i>基本信息
                                 </dt>
                                 <dd>
-                                    <span>个人信息:</span>叶文翔 / 男 / 24岁
+                                    <span>个人信息:</span>叶文翔 / 男 / 25岁
                                 </dd>
                                 <dd>
                                     <span>毕业院校:</span>湖北工业大学工程技术学院
@@ -110,8 +110,13 @@ class Home extends React.Component {
                                         <li className="secondary">git</li>
                                         <li className="secondary">sass</li>
                                         <li className="secondary">React</li>
-                                        <li className="secondary">React-Native</li>
                                         <li className="secondary">Redux</li>
+                                        <li className="secondary">Vue</li>
+                                        <li className="secondary">Vuex</li>
+                                        <li className="secondary">React-Native</li>
+                                        <li className="secondary">Node</li>
+                                        <li className="secondary">Koa</li>
+                                        <li className="secondary">mongodb</li>
                                         <li className="secondary">pug</li>
                                         <li className="secondary">ES6</li>
                                     </ul>
@@ -154,10 +159,25 @@ class Home extends React.Component {
                                         <li>
                                             <div className="round"></div>
                                             <h4>React /  Ajax / JSON  / ES6 / Redux / React-Redux / Redux-thunk /</h4>
-                                            <p>掌握npm包管理工具的使用，能使用ES6语法和React库进行模块化的开发，能实现基本的页面布局和常见的功能，轮播，TODOMVC等。掌握了 React-router实现页面的无刷新体验 、axios或者fetch 来实现Ajax请求数据实现页面的局部刷新,完成一个SPA页面的开发工作。</p>
+                                            <p>掌握npm包管理工具的使用，能使用ES6语法和React库进行模块化的开发。掌握了 React-router实现页面的无刷新体验 、axios或者fetch 来实现Ajax请求数据实现页面的局部刷新,完成一个SPA页面的开发工作。</p>
                                             <p>
                                               对于比较复杂的单页面应用，使用 Redux 来进行 state数据的统一管理，使用 Redux-thunk 来实现发送 action 的异步操作。
                                             </p>
+                                        </li>
+                                        <li>
+                                            <div className="round"></div>
+                                            <h4>Vue / vuex / vue-route</h4>
+                                            <p>使用vue完成两个比较复杂的后台系统，熟悉vue全家桶。</p>
+                                        </li>
+                                        <li>
+                                            <div className="round"></div>
+                                            <h4>Node</h4>
+                                            <p>使用node做过几个简单的页面爬虫，爬取的数据通过 mongose 存储到mongodb中，通过koa制作api来获取数据。</p>
+                                        </li>
+                                        <li>
+                                            <div className="round"></div>
+                                            <h4>Koa</h4>
+                                            <p>使用Koa做一些api，能完成一些koa简易的中间件，比如日志功能。</p>
                                         </li>
                                         <li>
                                             <div className="round"></div>
@@ -174,7 +194,7 @@ class Home extends React.Component {
                                     <i className="iconfont icon-biaoti"></i>自我评价
                                 </dt>
                                 <dd>
-                                    <p>个人对于计算机方面是非常有兴趣的，特别享受一边敲代码一边听音乐的乐趣，有自己的个人博客，其中一篇博客目前为止超过 40000 的阅读量。精通于MAC上进行开发。</p>
+                                    <p>个人对于计算机方面是非常有兴趣的，特别享受一边敲代码一边听音乐的乐趣，有自己的个人博客，目前自己在阿里云服务器上使用hexo 搭建了一个个人博客站点，http://39.107.118.115，域名正在备案中,后面打算把博客迁移上去。</p>
                                     <p>平时我就是一个很细心的人，对于代码方面更是如此，尽最大的努力精确到1px，不能接受标签胡乱嵌套，命名不规范，无用或重复的代码，等等问题，追求完美。</p>
                                     <p>对待问题首先自己折腾解决，享受解决问题之后的快感，有种肾上腺素飙升的感觉。</p>
                                 </dd>
