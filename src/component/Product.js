@@ -36,10 +36,10 @@ class Product extends React.Component {
                                         item.demoAddress === null
                                             ? null
                                             : <a href={this.isLink(item.demoAddress)
-                                                ? item.demoAddress : `https://yewenxiang23.github.io/${item.demoAddress}`}>演示demo</a>
+                                                ? item.demoAddress : `https://yewenxiang23.github.io/${item.demoAddress}`} target="_blank">演示demo</a>
                                     }
                                     {
-                                        item.codeAddress && <a href={`https://github.com/yewenxiang23/${item.codeAddress}`}>源码地址</a>
+                                        item.codeAddress && <a href={`https://github.com/yewenxiang23/${item.codeAddress}`} target="_blank">源码地址</a>
                                     }
                                 </div>
                                 <figcaption>{item.desc}</figcaption>

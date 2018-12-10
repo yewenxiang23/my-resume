@@ -44,7 +44,7 @@ export const productData = [
     {
         'title': 'ToyDB',
         'desc': '一个玩具测评平台的APP,主要使用React-native技术来开发出适配ios和android两端的App应用,即将上线。App项目从头到尾都是自己一个人开发的，5底月进公司，边学react-native边做项目，耗时两个月左右完成了这个项目，现阶段是界面的一些改版，数据的补充，项目中使用了redux来实现，数据的统一管理。使用coding来做版本管理，，项目包含登录模块，评论模块，文章模块，个人中心模块，视屏播放模块，搜索模块。',
-        'imgName': '![image](https://wx2.sinaimg.cn/large/0073tXM5gy1fy20uuzl89j30qm0ve4jy.jpg)',
+        'imgName': 'https://wx2.sinaimg.cn/large/0073tXM5gy1fy20uuzl89j30qm0ve4jy.jpg',
         'demoAddress': 'http://fir.im/tmcj',
         'codeAddress': null
     },
